@@ -1,5 +1,3 @@
-![JWT Logo](https://jwt.io/img/pic_logo.svg)
-
 # jsonwebtoken Documentation
 
 * [Install](/node-jsonwebtoken/install)
