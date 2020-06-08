@@ -1,6 +1,12 @@
-![JWT Logo](https://jwt.io/img/pic_logo.svg)
+[&larr; API Documentation](/node-jsonwebtoken/)
 
-# jsonwebtoken Documentation
+# Installation
+
+```bash
+$ npm install jsonwebtoken
+```
+
+See also:
 
 * [Install](/node-jsonwebtoken/install)
 * [jwt.sign](/node-jsonwebtoken/sign)
