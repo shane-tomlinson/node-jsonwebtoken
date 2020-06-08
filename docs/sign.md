@@ -44,15 +44,15 @@ Generated jwts will include an `iat` (issued at) claim by default unless `noTime
 Synchronous Sign with default (HMAC SHA256)
 
 ```js
-var jwt = require('jsonwebtoken');
-var token = jwt.sign({ foo: 'bar' }, 'shhhhh');
+const jwt = require('jsonwebtoken');
+const token = jwt.sign({ foo: 'bar' }, 'shhhhh');
 ```
 
 Synchronous Sign with RSA SHA256
 ```js
 // sign with RSA SHA256
-var privateKey = fs.readFileSync('private.key');
-var token = jwt.sign({ foo: 'bar' }, privateKey, { algorithm: 'RS256' });
+const privateKey = fs.readFileSync('private.key');
+const token = jwt.sign({ foo: 'bar' }, privateKey, { algorithm: 'RS256' });
 ```
 
 Sign asynchronously
@@ -64,7 +64,7 @@ jwt.sign({ foo: 'bar' }, privateKey, { algorithm: 'RS256' }, function(err, token
 
 Backdate a jwt 30 seconds
 ```js
-var older_token = jwt.sign({ foo: 'bar', iat: Math.floor(Date.now() / 1000) - 30 }, 'shhhhh');
+const older_token = jwt.sign({ foo: 'bar', iat: Math.floor(Date.now() / 1000) - 30 }, 'shhhhh');
 ```
 
 #### Token Expiration (exp claim)

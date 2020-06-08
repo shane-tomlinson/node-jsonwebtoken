@@ -20,10 +20,10 @@ Example
 
 ```js
 // get the decoded payload ignoring signature, no secretOrPrivateKey needed
-var decoded = jwt.decode(token);
+const decoded = jwt.decode(token);
 
 // get the decoded payload and header
-var decoded = jwt.decode(token, {complete: true});
+const decoded = jwt.decode(token, {complete: true});
 console.log(decoded.header);
 console.log(decoded.payload)
 ```
