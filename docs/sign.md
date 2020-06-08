@@ -1,4 +1,4 @@
-[&larr; API Documentation](/node-jsonwebtoken/)
+[&larr; jsonwebtoken Documentation](/node-jsonwebtoken/)
 
 # jwt.sign(payload, secretOrPrivateKey, [options, callback])
 

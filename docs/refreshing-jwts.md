@@ -1,4 +1,4 @@
-[&larr; API Documentation](/node-jsonwebtoken/)
+[&larr; jsonwebtoken Documentation](/node-jsonwebtoken/)
 
 ## Refreshing JWTs
 

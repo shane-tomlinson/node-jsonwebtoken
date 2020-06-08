@@ -1,6 +1,6 @@
-[&larr; API Documentation](/node-jsonwebtoken/)
+[&larr; jsonwebtoken Documentation](/node-jsonwebtoken/)
 
-# Algorithms supported
+# Supported algorithms
 
 The following algorithms are currently supported.
 
